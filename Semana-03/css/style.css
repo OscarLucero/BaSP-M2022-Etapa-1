@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+.margin{
+    margin-left: 200px;
+}
+
+.header{
+    width: 1295px;
+    height: 90px;
+    overflow: hidden;
+    background-color: #46A37C;
+    margin-left: 130px;
+    position: absolute;
+} 
+
+#top{
+    color: #373867;
+    padding-left: 70px;
+    font-family: "Roboto", sans-serif;
+    font-size: 29px;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.square{
+    background-color: #c4c4c4;
+    width: 130px;
+    height: 90px;
+}
+
+#rr-logo{
+    width: 90px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+.menu-bar{
+    position: fixed;
+    width: 130px;
+    height: 100%;
+    background-color: #373867;
+}
+
+.wat{
+    position: relative;
+}
