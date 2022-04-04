@@ -136,8 +136,10 @@
                 </div>
             </section>
             <div class="line-2"></div>           
-            <section id="Contact">
-                <h2>Contact Us For Information About The System</h2>
+            <section class="contact">
+                <h2 id="Contact">
+                    Contact Us For Information About The System
+                </h2>
                 <div>
                     <form action="process.php" method="post">
                         <label>First Name</label>
@@ -153,10 +155,18 @@
                     </form>
                 </div>
                 <div>
-                    <form action="process.php" method="post">
-                        <label>Contact Area</label>
-                        <input type="text" name="Put Number" placeholder="Put Number">
-                    </form>
+                    <label>Contact Area</label>
+                    <select name="contact-area">
+                        <option value="buenos-aires">
+                            Buenos Aires
+                        </option>
+                        <option value="santa-fe">
+                            Santa Fe
+                        </option>
+                        <option value="cordoba">
+                            Cordoba
+                        </option>
+                    </select>
                 </div>
                 <div>
                     <form action="process.php" method="post">
