@@ -58,7 +58,6 @@ header{
 .wat{
     font-family: "Roboto", sans-serif;
     display: inline-block;
-    width: 700px;
 }
 
 .wat h1{
@@ -77,7 +76,7 @@ header{
 }
 
 .paragraph{
-    width: 400px;
+    width: 40%;
     color: #373867;
     padding-top: 30px;
 }
@@ -85,9 +84,9 @@ header{
 .deskt-img{
     position: relative;
     display: inline-block;
-    left: 650px;
-    bottom: 290px;
-    padding-top: 45px;
+    left: 55%;
+    margin-top: -240px;
+    padding-bottom: 70px;
 }
 
 .quadrate{
@@ -170,21 +169,21 @@ header{
 }
 
 .contact input{
-    width: 600px;
+    width: 51%;
     border-radius: 4px;
     color: #373867;
     height: 30px;
 }
 
 .contact select{
-    width: 608px;
+    width: 52%;
     border-radius: 4px;
     color: #373867;
     height: 35px;
 }
 
 .contact textarea{
-    width: 600px;
+    width: 51%;
     border-radius: 4px;
     color: #373867;
     margin-bottom: 15px;
@@ -193,7 +192,7 @@ header{
 .contact button{
     margin-bottom: 20px;
     background-color: #ffffff;
-    width: 130px;
+    width: 10%;
     height: 40px;
     border-radius: 4px;
 }
@@ -280,19 +279,6 @@ header{
 }
 
 .line-1{
-    background-color: black;
-    width: 1100px;
-    height: 2px;
-    margin-bottom: 50px;
-    margin-top: -250px;
-    margin-left: 30px;
-}
-
-.line-2{
-    background-color: black;
-    width: 1100px;
-    height: 2px;
-    margin-bottom: 50px;
-    margin-top: 0px;
-    margin-left: 30px;
+    padding: 25px 0px 10px 0px;
+    border-bottom: 1px solid black;
 }
