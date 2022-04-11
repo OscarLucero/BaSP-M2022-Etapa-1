@@ -1,0 +1,17 @@
+@media(max-width:820px){
+
+    .menu-bar nav{
+         display: none;
+        }
+    }
+    
+    body{
+        display: flex;
+        display: inline-block;
+    }
+    
+    .margin{
+        display: flex;
+        display: inline-block;
+        margin-left: 10%;
+    }
