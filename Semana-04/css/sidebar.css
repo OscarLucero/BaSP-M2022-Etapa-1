@@ -1,0 +1,27 @@
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+
+.menu-bar ul{
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    background-color: #373867;
+    position: fixed;
+    width: 130px;
+    height: 100%;
+}
+
+.menu-bar li{
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
