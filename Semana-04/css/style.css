@@ -1,6 +1,6 @@
 @media(max-width:820px){
-
-    .menu-bar nav{
+    .menu-bar nav
+        {
          display: none;
         }
     }

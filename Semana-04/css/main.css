@@ -1,3 +1,17 @@
+@media(max-width:600px){
+    .img1
+    {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(min-width:600px){
+    .img1
+    {
+        flex-direction: column-reverse;
+    }
+}
+
 .wat{
     font-family: "Roboto", sans-serif;
     max-width: 90vw;
