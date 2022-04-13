@@ -132,7 +132,7 @@
 .list{
     width: 25%;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 40px;
     margin-top: -50px;
     display: flex;
 }
@@ -173,7 +173,7 @@
     }
 }
 
-@media(max-width:1024px){
+@media(max-width:768px){
     .list-conteiner
     {
         display: flex;
@@ -181,7 +181,7 @@
     }
 }
 
-@media(min-width:1024px){
+@media(min-width:768px){
     .list-conteiner
     {
         display: flex;
