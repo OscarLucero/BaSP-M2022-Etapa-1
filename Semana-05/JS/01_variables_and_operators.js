@@ -9,12 +9,12 @@ var str1, str2, result;
 str1= "Ri"
 str2= "ver"
 var result = str1 + str2;
-console.log("ex02-variables and operators-B: " + result)
+console.log("ex01-variables and operators-B: " + result)
 
 var w1, w2;
 w1= "Gallardo"
 w2= "Millonario"
 var result = w1.length + w2.length;
 
-console.log("ex03-variables and operators-C: " + result)
+console.log("ex01-variables and operators-C: " + result)
 

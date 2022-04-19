@@ -9,3 +9,5 @@ Week 02 : Landing created with HTML.
 Week 03 : Landing created with CSS.
 
 Week 04 : Landing created with Flexbox.
+
+Week 05 : Exercises with JavaScript.
