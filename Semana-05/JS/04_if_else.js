@@ -21,5 +21,5 @@ if (age <= 2) {
 }else if ((age > 60) && (age <= 75)) {
     console.log("ex04-if-else-B: Adulto Mayor " + age)
 }else {
-    console.log("ex04-if-else-B: Anciano" + age)
+    console.log("ex04-if-else-B: Anciano " + age)
 }
