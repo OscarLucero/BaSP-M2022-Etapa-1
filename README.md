@@ -11,3 +11,5 @@ Week 03 : Landing created with CSS.
 Week 04 : Landing created with Flexbox.
 
 Week 05 : Exercises with JavaScript.
+
+Week 06 : SingUp - LogIn, OnFocus On Blur, Validation.

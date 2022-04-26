@@ -10,6 +10,7 @@ const cp = document.getElementById('cp');
 const email = document.getElementById('email');
 const pass = document.getElementById('pass');
 const pass2 = document.getElementById('pass2');
+const formControlError = document.querySelector(".form-control");
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -118,3 +119,19 @@ function setSuccessFor(input) {
 function isEmail(email) {
 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
+
+email.addEventListener("focus", function () {
+    cleanErrorFor(email);
+  });
+
+pass.addEventListener("focus", function () {
+    cleanErrorFor(pass);
+  });
+
+email.addEventListener("blur", function () {
+    checkInputs();
+  });
+
+pass.addEventListener("blur", function () {
+    checkInputs();
+  });
