@@ -7,25 +7,23 @@ body{
     'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
 header{
-    width: 110%;
-    height: 100px;
-    background-color: #46A37C;
     display: flex;
 }
 
 .container{
     display: flex;
-    margin-left: 130%;
+    height: 70%;
+    padding-left: 125%;
 }
 
 .container-form{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #F3F3F3;
     border-radius: 20px;
     padding: 40px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .img-usu{

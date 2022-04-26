@@ -1,64 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/sidebar.css">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/sign-up.css">
-    <script src="../javascript/sign-up.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/sidebar.css">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/sign-up.css">
+        
 
-    <title>SingUp</title>
-</head>
-<body>
-    <header>
-        <div class="conteiner-logo">
-            <div class="menu-logo">
-                <img src="../img/choose.png" alt="Logo-Hambur">
+        <title>SingUp</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="conteiner-logo">
+                <div class="menu-logo">
+                    <img src="../img/choose.png" alt="Logo-Hambur">
+                </div>
             </div>
-        </div>
-        <p id="top">Trackgenix S.A</p>   
-    </header>
-    <section>
-        <div class="menu-bar">
-            <nav>
-                <img class="rr-logo" src="../img/rr-logo.png" alt="radium-logo">
-                <ul>
-                    <li> <a href="../views/index.html">Home</a></li>
-                    <li><a href="../views/sign-up.html">Sign Up</a></li>
-                    <li><a href="../views/login.html">Login</a></li>
-                    <li><a href=".#Contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
-    <footer class="line-1">
-        <div class="logos">
-            <a href="https://twitter.com/radiumrocket">
-                <img src="../img/twt.jpg" alt="Twitter-Logo">
-            </a>
-            <a href="https://github.com/radiumrocketapps">
-                <img src="../img/git-hub.jpg" alt="GitHub-Logo">
-            </a>
-            <a href="https://www.facebook.com/radiumrocket">
-                <img src="../img/fcb.jpg" alt="Facebook-Logo">
-            </a>
-            <a href="https://www.linkedin.com/company/radium-rocket/">
-                <img src="../img/in.jpg" alt="Linkedin-Logo">                        
-            </a>
-            <a href="https://www.instagram.com/radium.rocket/">
-                <img src="../img/insta.jpg" alt="Instagram-Logo">
-            </a>
-        </div>
-        <div class="copy">
-            <p>
-                Copyright &copy; 2022 Trackgenix S.A All rights
-            </p>
-        </div>
-    </footer>
-</body>
+            <p id="top">Trackgenix S.A</p>   
+        </header>
+        <section>
+            <div class="menu-bar">
+                <nav>
+                    <img class="rr-logo" src="../img/rr-logo.png" alt="radium-logo">
+                    <ul>
+                        <li> <a href="../views/index.html">Home</a></li>
+                        <li><a href="../views/sign-up.html">Sign Up</a></li>
+                        <li><a href="../views/login.html">Login</a></li>
+                        <li><a href=".#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div class="container">
+            <div class="header">
+                <h2>Create Account</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="nombre" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Apellido" id="apellido" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="dni">DNI</label>
+                    <input type="number" placeholder="DNI" id="dni" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="fn">Fecha Nacimiento</label>
+                    <input type="date" placeholder="" id="fn" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" placeholder="Sin 0 y sin 15" id="telefono" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" placeholder="Calle" id="direccion" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" placeholder="Localidad" id="localidad" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="cp">Codigo de Area</label>
+                    <input type="number" placeholder="CP" id="cp" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="o@gmail.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div><div class="form-control">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="pass"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="pass2">Repetir Contraseña</label>
+                    <input type="password" placeholder="Repetir Contraseña" id="pass2"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>        
+        <footer class="line-1">
+            <div class="logos">
+                <a href="https://twitter.com/radiumrocket">
+                    <img src="../img/twt.jpg" alt="Twitter-Logo">
+                </a>
+                <a href="https://github.com/radiumrocketapps">
+                    <img src="../img/git-hub.jpg" alt="GitHub-Logo">
+                </a>
+                <a href="https://www.facebook.com/radiumrocket">
+                    <img src="../img/fcb.jpg" alt="Facebook-Logo">
+                </a>
+                <a href="https://www.linkedin.com/company/radium-rocket/">
+                    <img src="../img/in.jpg" alt="Linkedin-Logo">                        
+                </a>
+                <a href="https://www.instagram.com/radium.rocket/">
+                    <img src="../img/insta.jpg" alt="Instagram-Logo">
+                </a>
+            </div>
+            <div class="copy">
+                <p>
+                    Copyright &copy; 2022 Trackgenix S.A All rights
+                </p>
+            </div>
+        </footer>
+        <script src="../javascript/sign-up.js"></script>
+    </body>
 </html>
