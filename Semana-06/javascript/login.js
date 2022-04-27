@@ -1,7 +1,8 @@
-const form = document.getElementById('form');
-const email = document.getElementById('email');
-const pass = document.getElementById('pass');
-const formControlError = document.querySelector(".form-control");
+var form = document.getElementById('form');
+var email = document.getElementById('email');
+var pass = document.getElementById('pass');
+var emailControlError = document.querySelector("#email-error-controller");
+var passwordControlError = document.querySelector("#password-error-controller");
 
 
 form.addEventListener('submit', e => {
@@ -11,8 +12,8 @@ form.addEventListener('submit', e => {
 });
 
 function checkInputs() {
-	const emailValue = email.value.trim();
-	const passValue = pass.value.trim();
+	var emailValue = email.value.trim();
+	var passValue = pass.value.trim();
 
 	if(emailValue === '') {
 		setErrorFor(email, 'Email esta vacio');
@@ -29,18 +30,19 @@ function checkInputs() {
 	}
 }
 
+
 function setErrorFor(input, message) {
-	const formControl = input.parentElement;
-	const small = formControl.querySelector('small');
+	var formControl = input.parentElement;
+	var small = formControl.querySelector('small');
 	formControl.className = 'form-control error';
 	small.innerText = message;
 }
-function cleanErrorFor(input){
-    formControlError.classList.remove('error');
+function cleanErrorFor(input) {
+	input.classList.remove("error");
 }
 
 function setSuccessFor(input){
-	const formControl = input.parentElement;
+	var formControl = input.parentElement;
 	formControl.className = 'form-control success';
 }
 	
@@ -49,17 +51,17 @@ function isEmail(email) {
 }
 
 email.addEventListener("focus", function () {
-    cleanErrorFor(email);
-  });
+  cleanErrorFor(emailControlError);
+});
 
 pass.addEventListener("focus", function () {
-    cleanErrorFor(pass);
-  });
+  cleanErrorFor(passwordControlError);
+});
 
-email.addEventListener("blur", function () {
-    checkInputs();
+  email.addEventListener("blur", function () {
+    checkInputs(emailControlError);
   });
 
 pass.addEventListener("blur", function () {
-    checkInputs();
+    checkInputs(passwordControlError);
   });

@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-	background-color: #fff;
+	background-color: #f3f3f3;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	overflow: hidden;
@@ -22,12 +22,15 @@ body {
 
 .header {
 	border-bottom: 1px solid #f0f0f0;
-	background-color: #f7f7f7;
+	background-color: #373867;
 	padding: 20px 40px;
 }
 
 .header h2 {
-	margin: 0;
+	font-family: "Roboto"sans-serif;
+	font-size: 40px;
+	margin-left: 35%;
+	color: #fff;
 }
 
 .form {
@@ -61,32 +64,15 @@ body {
 }
 
 .form-control.success input {
-	border-color: #2ecc71;
+	border-color: #009b40;
 }
 
 .form-control.error input {
-	border-color: #e74c3c;
-}
-
-.form-control i {
-	visibility: hidden;
-	position: absolute;
-	top: 40px;
-	right: 10px;
-}
-
-.form-control.success i.fa-check-circle {
-	color: #2ecc71;
-	visibility: visible;
-}
-
-.form-control.error i.fa-exclamation-circle {
-	color: #e74c3c;
-	visibility: visible;
+	border-color: #e01600;
 }
 
 .form-control small {
-	color: #e74c3c;
+	color: #e01600;
 	bottom: 0;
 	left: 0;
 	visibility: hidden;
@@ -97,8 +83,8 @@ body {
 }
 
 .form button {
-	background-color: #8e44ad;
-	border: 2px solid #8e44ad;
+	background-color: #373867;
+	border: 2px solid #1d005f;
 	border-radius: 4px;
 	color: #fff;
 	display: block;
