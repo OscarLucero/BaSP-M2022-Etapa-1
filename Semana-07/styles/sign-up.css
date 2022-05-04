@@ -1,0 +1,102 @@
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #46A37C;
+    display: flex;
+}
+
+.line-1{
+    width: 108%;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+
+}
+
+.container {
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 50%;
+    margin-left: 30%;
+	margin-top: 1.5%;
+}
+
+.header {
+	border-bottom: 1px solid #fff;
+	background-color: #373867;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	font-family: "Roboto"sans-serif;
+	font-size: 40px;
+	margin-left: 28%;
+	color: #fff;
+}
+
+.form {
+	padding: 30px 40px;	
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+.form-control label {
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #009b40;
+}
+
+.form-control.error input {
+	border-color: #e01600;
+}
+
+.form-control small {
+	color: #e01600;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #373867;
+	border: 2px solid #1d005f;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: "Roboto"sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
