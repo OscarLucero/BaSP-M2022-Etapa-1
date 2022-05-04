@@ -13,3 +13,5 @@ Week 04 : Landing created with Flexbox.
 Week 05 : Exercises with JavaScript.
 
 Week 06 : SingUp - LogIn, OnFocus On Blur, Validation.
+
+Week 07 : SingUp - LogIn, OnFocus On Blur, Validation, Fetch, Local Storage.
